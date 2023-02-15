@@ -12,6 +12,15 @@ a {
  text-decoration: none;
 }
 
+.title a {
+  color: #260051;
+}
+
+.title a:hover {
+ color: #260051;
+}
+
+
 body li:not(:last-child) {
   margin-bottom: 2px;
 }
@@ -31,8 +40,8 @@ header {
 .title {
   white-space: normal;
   height: 46px;
-  border: 2px solid #260051;
-  border-radius: 7px;
+  /* border: 2px solid #260051;
+  border-radius: 7px; */
   margin: 25px 0px;
 }
 
@@ -66,7 +75,7 @@ button.num:hover {
 }
 
 button {
-  font-size: 10mm;
+  font-size: 7mm;
   width : 230px;
   border-radius: 7px;
   /* color: #5400b3; */
